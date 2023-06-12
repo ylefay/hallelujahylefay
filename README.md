@@ -1,16 +1,13 @@
-### Hi there 👋
+###
 
-<!--
-**hallelujahylefay/hallelujahylefay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am currently a research intern at **Aalto University** in Finland, working with [Adrien Corenflos](https://adriencorenflos.github.io/) on probabilistic numerics applied to stochastic differential equations. 
 
-Here are some ideas to get you started:
+Prior to that, I was a quantitative researcher intern at **Lombard Odier Investment Managers**, Multi-Asset team, in Switzerland. My supervisor was Serge Tabachnik.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I am pursuing a dual degree, a M.Sc. in Machine Learning at **Ecole Normale Supérieure Paris-Saclay** (MVA) and a M.Eng. in Statistics at **ENSAE - Institut Polytechnique de Paris**.
+
+I enjoy solving intertwined theoretical and technical problems.
+
+Here is my [curriculum-vitae](https://github.com/hallelujahylefay/curriculum_vitae/blob/main/CV.pdf).
+
+Feel free to reach me: {firstname}[dot]{lastname}[at]ensae[dot]com, +33&nbsp;6&nbsp;45&nbsp;44&nbsp;70&nbsp;93. 
