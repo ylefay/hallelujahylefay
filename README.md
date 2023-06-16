@@ -10,4 +10,4 @@ I enjoy solving intertwined theoretical and technical problems.
 
 Here is my [curriculum vitæ](https://github.com/hallelujahylefay/curriculum_vitae/blob/main/CV.pdf).
 
-Feel free to reach me: {firstname}[dot]{lastname}[at]ensae[dot]com, +33&nbsp;6&nbsp;45&nbsp;44&nbsp;70&nbsp;93. 
+Feel free to reach me: {firstname}[dot]{lastname}[at]ensae[dot]fr, +33&nbsp;6&nbsp;45&nbsp;44&nbsp;70&nbsp;93. 
