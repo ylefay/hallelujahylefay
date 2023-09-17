@@ -4,7 +4,7 @@ I am currently a research intern at **Aalto University** in Finland, working wit
 
 Prior to that, I was a quantitative research intern at **Lombard Odier Investment Managers**, Multi-Asset team, in Switzerland. My supervisor was Serge Tabachnik, PhD.
 
-I am pursuing a dual degree, a M.Sc. in Machine Learning at **Ecole Normale Supérieure Paris-Saclay** (MVA) and a M.Eng. in Statistics at **ENSAE - Institut Polytechnique de Paris**.
+I am pursuing a dual degree, a M.Sc. in Machine Learning at **Ecole Normale Supérieure Paris-Saclay** (MVA) and a M.Eng. in Statistics and Financial Engineering at **ENSAE - Institut Polytechnique de Paris**.
 
 I enjoy solving intertwined theoretical and technical problems.
 
