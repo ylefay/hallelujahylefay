@@ -6,31 +6,31 @@ console = Console(record=True, width=100)
 tree = Tree("[link=https://www.linkedin.com/in/yvann-le-fay/]Yvann Le Fay", guide_style="bold bright_black")
 
 self_tree = tree.add("code for me", guide_style="bright_black")
-self_tree.add("[bold link=https://github.com/hallelujahylefay/abelian_sandpile_ensae]abelian_sandpile_ensae[/]  - [bright_black]dynamical system exhibiting self-organised criticality")
-self_tree.add("[bold link=https://github.com/hallelujahylefay/independent_component_analysis]independent_component_analysis[/]                - [bright_black]FastICA implementation and variational autoencoders, jax backend")
-self_tree.add("[bold link=https://github.com/hallelujahylefay/bayesianSDEsolver]bayesianSDEsolver[/]                - [bright_black]efficient SDE samplers and probabilistic solvers, jax backend")
+self_tree.add("[bold link=https://github.com/hallelujahylefay/abelian_sandpile_ensae]abelian_sandpile_ensae[/] - [bright_black]dynamical system exhibiting self-organised criticality")
+self_tree.add("[bold link=https://github.com/hallelujahylefay/independent_component_analysis]independent_component_analysis[/] - [bright_black]FastICA and variational autoencoders, jax backend")
+self_tree.add("[bold link=https://github.com/hallelujahylefay/bayesianSDEsolver]bayesianSDEsolver[/] - [bright_black]efficient SDE samplers and probabilistic solvers, jax backend")
 
 
 contrib_tree = tree.add("code I helped with", guide_style="bright_black")
-contrib_tree.add("[bold link=https://github.com/hallelujahylefay/NeuroLang]NeuroLang[/]                             - [bright_black]probabilistic logic programming")
+contrib_tree.add("[bold link=https://github.com/hallelujahylefay/NeuroLang]NeuroLang[/] - [bright_black]probabilistic logic programming")
 
 future_tree = tree.add("code I want to share", guide_style="bright_black")
-future_tree.add("[bold link=https://github.com/nchopin/particles]particles[/]                            - [bright_black]SMC in python")
-future_tree.add("[bold link=https://github.com/blackjax-devs/blackjax]blackjax[/]                            - [bright_black]samplers in jax")
-future_tree.add("[bold link=https://github.com/probml/dynamax]dynamax[/]                             - [bright_black]state space models in jax")
+future_tree.add("[bold link=https://github.com/nchopin/particles]particles[/] - [bright_black]SMC in python")
+future_tree.add("[bold link=https://github.com/blackjax-devs/blackjax]blackjax[/] - [bright_black]samplers in jax")
+future_tree.add("[bold link=https://github.com/probml/dynamax]dynamax[/] - [bright_black]state space models in jax")
 
 work_tree = tree.add("work", guide_style="bright_black")
-aalto = work_tree.add("Aalto University                              - [bright_black]Research Assistant")
-inria = work_tree.add("INRIA                              - [bright_black]Research Assistant")
-lombard = work_tree.add("Lombard Odier Investment Managers                              - [bright_black]Quantitative Researcher")
+aalto = work_tree.add("Aalto University - [bright_black]Research Assistant")
+inria = work_tree.add("INRIA - [bright_black]Research Assistant")
+lombard = work_tree.add("Lombard Odier Investment Managers - [bright_black]Quantitative Researcher")
 ens_tree = work_tree.add("École Normale Supérieure Paris-Saclay")
-ens_tree.add("M.Sc., Machine Learning (MVA)       ")
+ens_tree.add("M.Sc., Machine Learning (MVA)")
 ensae_tree = work_tree.add("ENSAE")
-ensae_tree.add("M.Eng, Financial Engineering and Statistics       - [bright_black]Mostly probability and statistics")
+ensae_tree.add("M.Eng, Financial Engineering and Statistics")
 
 console.print(tree)
 console.print("")
-console.print("[green]Feel free to reach me: {firstname}[dot]{lastname}[at]ensae[dot]fr, +33 6 45 44 70 93. My [curriculum vitæ](https://github.com/hallelujahylefay/curriculum-vitae/blob/main/CV.pdf).")
+console.print("[green]Feel free to reach me: {firstname}[dot]{lastname}[at]ensae[dot]fr, +33 6 45 44 70 93. My [bold link=https://github.com/hallelujahylefay/curriculum-vitae/blob/main/CV.pdf]curriculum vitæ[/].")
 
 CONSOLE_HTML_FORMAT = """\
 <pre style="font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace">{code}</pre>
