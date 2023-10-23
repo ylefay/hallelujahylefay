@@ -1,39 +1,25 @@
-from rich.console import Console
-from rich.tree import Tree
+<pre style="font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace"><a href="https://www.linkedin.com/in/yvann-le-fay/">Yvann Le Fay</a>
+<span style="color: #808080; text-decoration-color: #808080">┣━━ </span>code for me
+<span style="color: #808080; text-decoration-color: #808080">┃   ┣━━ </span><span style="font-weight: bold"><a href="https://github.com/hallelujahylefay/abelian_sandpile_ensae">abelian_sandpile_ensae</a></span>  - <span style="color: #808080; text-decoration-color: #808080">dynamical system exhibiting self-organised criticality</span>
+<span style="color: #808080; text-decoration-color: #808080">┃   ┣━━ </span><span style="font-weight: bold"><a href="https://github.com/hallelujahylefay/independent_component_analysis">independent_component_analysis</a></span>                - <span style="color: #808080; text-decoration-color: #808080">FastICA implementation and variational </span>
+<span style="color: #808080; text-decoration-color: #808080">┃   ┃   </span><span style="color: #808080; text-decoration-color: #808080">autoencoders, jax backend</span>
+<span style="color: #808080; text-decoration-color: #808080">┃   ┗━━ </span><span style="font-weight: bold"><a href="https://github.com/hallelujahylefay/bayesianSDEsolver">bayesianSDEsolver</a></span>                - <span style="color: #808080; text-decoration-color: #808080">efficient SDE samplers and probabilistic solvers, jax </span>
+<span style="color: #808080; text-decoration-color: #808080">┃       </span><span style="color: #808080; text-decoration-color: #808080">backend</span>
+<span style="color: #808080; text-decoration-color: #808080">┣━━ </span>code I helped with
+<span style="color: #808080; text-decoration-color: #808080">┃   ┗━━ </span><span style="font-weight: bold"><a href="https://github.com/hallelujahylefay/NeuroLang">NeuroLang</a></span>                             - <span style="color: #808080; text-decoration-color: #808080">probabilistic logic programming</span>
+<span style="color: #808080; text-decoration-color: #808080">┣━━ </span>code I want to share
+<span style="color: #808080; text-decoration-color: #808080">┃   ┣━━ </span><span style="font-weight: bold"><a href="https://github.com/nchopin/particles">particles</a></span>                            - <span style="color: #808080; text-decoration-color: #808080">SMC in python</span>
+<span style="color: #808080; text-decoration-color: #808080">┃   ┣━━ </span><span style="font-weight: bold"><a href="https://github.com/blackjax-devs/blackjax">blackjax</a></span>                            - <span style="color: #808080; text-decoration-color: #808080">samplers in jax</span>
+<span style="color: #808080; text-decoration-color: #808080">┃   ┗━━ </span><span style="font-weight: bold"><a href="https://github.com/probml/dynamax">dynamax</a></span>                             - <span style="color: #808080; text-decoration-color: #808080">state space models in jax</span>
+<span style="color: #808080; text-decoration-color: #808080">┗━━ </span>work
+<span style="color: #808080; text-decoration-color: #808080">    ┣━━ </span>Aalto University                              - <span style="color: #808080; text-decoration-color: #808080">Research Assistant</span>
+<span style="color: #808080; text-decoration-color: #808080">    ┣━━ </span>INRIA                              - <span style="color: #808080; text-decoration-color: #808080">Research Assistant</span>
+<span style="color: #808080; text-decoration-color: #808080">    ┣━━ </span>Lombard Odier Investment Managers                              - <span style="color: #808080; text-decoration-color: #808080">Quantitative Researcher</span>
+<span style="color: #808080; text-decoration-color: #808080">    ┣━━ </span>École Normale Supérieure Paris-Saclay
+<span style="color: #808080; text-decoration-color: #808080">    ┃   ┗━━ </span>M.Sc., Machine Learning (MVA)       
+<span style="color: #808080; text-decoration-color: #808080">    ┗━━ </span>ENSAE
+<span style="color: #808080; text-decoration-color: #808080">        ┗━━ </span>M.Eng, Financial Engineering and Statistics       - <span style="color: #808080; text-decoration-color: #808080">Mostly probability and statistics</span>
 
-console = Console(record=True, width=100)
-
-tree = Tree("[link=https://www.linkedin.com/in/yvann-le-fay/]Yvann Le Fay", guide_style="bold bright_black")
-
-self_tree = tree.add("code for me", guide_style="bright_black")
-self_tree.add("[bold link=https://github.com/hallelujahylefay/abelian_sandpile_ensae]abelian_sandpile_ensae[/]  - [bright_black]dynamical system exhibiting self-organised criticality")
-self_tree.add("[bold link=https://github.com/hallelujahylefay/independent_component_analysis]independent_component_analysis[/]                - [bright_black]FastICA implementation and variational autoencoders, jax backend")
-self_tree.add("[bold link=https://github.com/hallelujahylefay/bayesianSDEsolver]bayesianSDEsolver[/]                - [bright_black]efficient SDE samplers and probabilistic solvers, jax backend")
-
-
-contrib_tree = tree.add("code I helped with", guide_style="bright_black")
-contrib_tree.add("[bold link=https://github.com/hallelujahylefay/NeuroLang]NeuroLang[/]                             - [bright_black]probabilistic logic programming")
-
-future_tree = tree.add("code I want to share", guide_style="bright_black")
-future_tree.add("[bold link=https://github.com/nchopin/particles]particles[/]                            - [bright_black]SMC in python")
-future_tree.add("[bold link=https://github.com/blackjax-devs/blackjax]blackjax[/]                            - [bright_black]samplers in jax")
-future_tree.add("[bold link=https://github.com/probml/dynamax]dynamax[/]                             - [bright_black]state space models in jax")
-
-work_tree = tree.add("work", guide_style="bright_black")
-aalto = work_tree.add("Aalto University                              - [bright_black]Research Assistant")
-inria = work_tree.add("INRIA                              - [bright_black]Research Assistant")
-lombard = work_tree.add("Lombard Odier Investment Managers                              - [bright_black]Quantitative Researcher")
-ens_tree = work_tree.add("École Normale Supérieure Paris-Saclay")
-ens_tree.add("M.Sc., Machine Learning (MVA)       ")
-ensae_tree = work_tree.add("ENSAE")
-ensae_tree.add("M.Eng, Financial Engineering and Statistics       - [bright_black]Mostly probability and statistics")
-
-console.print(tree)
-console.print("")
-console.print("[green]Feel free to reach me: {firstname}[dot]{lastname}[at]ensae[dot]fr, +33 6 45 44 70 93. My [curriculum vitæ](https://github.com/hallelujahylefay/curriculum-vitae/blob/main/CV.pdf).")
-
-CONSOLE_HTML_FORMAT = """\
-<pre style="font-family:Menlo,'DejaVu Sans Mono',consolas,'Courier New',monospace">{code}</pre>
-"""
-
-console.save_html("README.md", inline_styles=True, code_format=CONSOLE_HTML_FORMAT)
+<span style="color: #008000; text-decoration-color: #008000">Feel free to reach me: </span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">{</span><span style="color: #008000; text-decoration-color: #008000">firstname</span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">}{</span><span style="color: #008000; text-decoration-color: #008000">lastname</span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">}</span><span style="color: #008000; text-decoration-color: #008000">ensaefr, +</span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">33</span><span style="color: #008000; text-decoration-color: #008000"> </span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">6</span><span style="color: #008000; text-decoration-color: #008000"> </span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">45</span><span style="color: #008000; text-decoration-color: #008000"> </span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">44</span><span style="color: #008000; text-decoration-color: #008000"> </span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">70</span><span style="color: #008000; text-decoration-color: #008000"> </span><span style="color: #008000; text-decoration-color: #008000; font-weight: bold">93</span><span style="color: #008000; text-decoration-color: #008000">. My </span>
+<span style="color: #008000; text-decoration-color: #008000; font-weight: bold">(</span><span style="color: #008000; text-decoration-color: #008000; text-decoration: underline">https://github.com/hallelujahylefay/curriculum-vitae/blob/main/CV.pdf).</span>
+</pre>
